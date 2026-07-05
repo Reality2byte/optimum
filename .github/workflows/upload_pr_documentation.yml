@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@b0f9a6e3b6aa912656cbda9f74896eb721d29421  # main
+    uses: huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@a601280c0e9830f86ac8ecde75eeb3cf733e8bef  # main
     with:
       package_name: optimum
     secrets:
